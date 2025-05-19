@@ -15,7 +15,7 @@ This project analyzes power consumption data collected from multiple zones over 
   - Gaussian family likelihood
   - Predictors: Temperature_scaled, Humidity_scaled, Month_num, Weekend
   - Random intercepts for Zone
-  - MCMC sampling with NUTS algorithm, 4 chains, 4000 iterations, warmup 1000
+  - MCMC sampling with, 4 chains, 4000 iterations, warmup 1000
 - **Model Diagnostics:** Checked convergence via R-hat, Effective Sample Size (ESS), and traceplots; addressed divergent transitions by tuning control parameters.
 
 ## Results
