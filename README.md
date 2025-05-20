@@ -3,6 +3,16 @@
 ## Project Overview
 This project analyzes power consumption data collected from multiple zones over time to understand how environmental factors and temporal patterns affect electricity usage. A Bayesian hierarchical regression model was developed using the `brms` package in R, incorporating predictors like temperature, humidity, month, weekend indicator, and zone-level random effects.
 
+## 📂 Project Structure
+
+Here's how everything is organized:
+
+- 📂Data : Contains all the data files. (raw, cleaned, outliers etc.)
+- 📂R : Contains all the code files. (01_Data_cleaning.R , 02_EDA.R , 03_Bayesian_Hierarchical_Model.R)
+- 📂plots: All the plots generated from the R scripts
+- Detailed Report 
+- README.md
+
 ## Dataset
 - Source: UCI Machine Learning Repository (provide link)
 - Description: Hourly power consumption data from three different zones along with weather and temporal features.
